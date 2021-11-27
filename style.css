@@ -256,13 +256,13 @@ margin-top: 10px;
     color: #fff;
 }
 #diag{
-    transform: rotate(45deg);
-    background-color: orange;
+    transform: rotate(32deg);
+    background-color: #fff;
     position: relative;
-    left: 120px;
-    bottom: 25px;
+    left: 119px;
+    bottom: 30px;
     width: 20px;
-    height: 20px;
+    height: 38px;
 }
 #orange{
     background-color: #232F3E;
