@@ -13,10 +13,11 @@
         <div id="navbarOne">
             <ul>
                 <li id="logo"></li>
-                <li id="deliverTo"><p id="top"></p>Deliver to<br><span><p id="bottom"><strong>Israel</strong></p></span></p></li>
+                <li id="deliveryIcon"></li>
+                <li id="deliverTo"><p id="top"></p>Deliver to&nbsp;<br><strong>Israel</strong></p></li>
                 <li id="searchCategory">
                     <label for="category"></label>
-                    <select name="category" id="catDropdown">
+                    <select name="category" id="catDropdown" placeholder="All">
                         <option value="all">All</option>
                         <option value="artsAndCrafts">Arts & Crafts</option>
                         <option value="automotive">Automotive</option>
@@ -48,18 +49,18 @@
                     </select>
                 </li>
                 <li id="searchBar"><input type="text"></li>
-                <li id="searchSymbol"></li>
-                <li id="flag"></li>
+                <li id="searchSymbol"><p></p></li>
+                <li id="flag"><p></p></li>
                 <li id="signIn"><p id="top"></p>Hello, Sign in<br><span><p id="bottom"><strong>Account & Lists</strong></p></span></p></li>
                 <li id="returns"><p id="top"></p>Returns<br><span><p id="bottom"><strong>& Orders</strong></p></span></p></li>
-                <li id="cart"><strong>Cart</strong></li>
+                <li id="cart"><p id="cartIcon"></p><strong>Cart</strong></li>
             </ul>  
         </div>
         <div id="navbarTwo">
     <ul>
-        <ul>
-            <li id="all1"></li>
-            <li id="all2">All</li>
+        <ul id="allOutline">
+            <li id="allHamburger"></li>
+            <li id="allText">All</li>
         </ul>
         <li>Today's Deals</li>
         <li>Customer Service</li>
@@ -109,9 +110,36 @@
             <div id="infoText">
                 <p id="one">Ner Mitzvah Vintage Aluminum Candle Menorah - Fits All Standard Chanukah Candles - Tree of Life Design with Antique Silver Finish</p>
                 <a href="#" id="linkOne">Visit the Ner Mitzvah Store</a>
-            </div>
-            <div id="pricingInfo">
+                <div id="ratings">
+                    <p id="stars"></p>
+                    <p>130 ratings</p>
+                    <div id="choice">
+                        <p id="amazons">Amazon's <span id="orange">Choice</span></p>     
+                        <p id="diag"></p>
+                        <p id="treeOfLifeText">for "<span><a href="#" id="treeOfLifeLink">tree of life menorah</a></span>"</p>
+                    </div>
+                    <p>Price</p>
 
+                </div>
+            </div>
+            <div id="pricingCard">
+                <p id="price">$33.99</p>
+                <div id="details">
+                    <p id="details1">No Import Fees Deposit & $16.73 Shipping to Israel (<strong>FREE Shipping</strong> to Israel when you spend over $49.00 on eligible items) <span><a href="#">Details</a></span></p>
+                </div>
+                <p id="ships">This item ships to <strong>Israel</strong>. Arrives: <strong>Monday, Dec 20</strong></p>
+                <div id="deliver">
+                    <p id="deliverIcon"></p>
+                    <p id="deliverText">Deliver to Israel</p>
+                    <p id="inStock">In Stock.</p>
+                </div>
+                <div id="buyButtons">
+                    <ul>
+                        <li id="buttonOne">Add to Cart</li>
+                        <li id="buttonTwo">Buy Now</li>
+                    </ul>
+                </div>
+                
             </div>
         </section>
     </main>

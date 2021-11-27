@@ -34,11 +34,13 @@ body {
     margin-left: 25px;
     list-style: none;
 }
+#deliverTo{
+    margin-left: -22px;
+}
 #deliverTo ul{
     display: flex;
     flex-direction: column;
     gap: 0px;
-
 }
 #navbarOne ul li {
     margin-top: 10px;
@@ -60,7 +62,7 @@ body {
 #navbarTwo ul{
     list-style: none;
     display: flex;
-    margin-left: 25px;
+    margin-left: 5px;
     margin-top: 2px;
     gap: 25px;
 }
@@ -109,10 +111,16 @@ body {
     border-radius: 2px;
 
 }
+#itemDesc #images li:hover{
+    border: #C7511F solid 1px;
+    box-shadow: #FFA41C 0px 0px 15px;
+    border-radius: 2px;
+
+}
 #underImage p{
     color: rgb(109, 109, 109);
     font-size: 14px;
-    margin-left: 30px;
+    margin-left: 195px;
 }
 #itemInfo {
     display: flex;
@@ -145,7 +153,8 @@ body {
     border-bottom-left-radius: 5px;
     border-color: rgb(109, 109, 109);
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+    text-align: left;
     font-family: 'Amazon Ember';
     
 }
@@ -159,4 +168,143 @@ body {
 }
 #all2{
     margin-left: -22px;
+    font-weight: bold;
+}
+#pricingCard {
+    margin-top: 20px;
+    width: 200px;
+    font-size: 14px;
+    padding: 18px;
+    border: #D5D9D9 solid 1px;
+    border-radius: 8px;
+}
+#pricingCard #price{
+    font-size: 18px;
+    color: #BA2704;
+}
+#pricingCard #details1{
+    color: rgb(109, 109, 109);
+    line-height: 20px;
+    margin-top: 10px;
+}
+#pricingCard a {
+    color: #007185;
+    text-decoration: none;
+}
+#pricingCard a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+#arrow{
+    height: 100px;
+    width: 100px;
+    background: url(./img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) -170px -300px;
+
+}
+#ships {
+    margin-top: 8px;
+    width: 230px;
+}
+#deliver{
+    display: flex;
+}
+#deliverIcon {
+    background: url(./img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) -40px -250px;
+    width: 100px;
+    height: 100px;
+}
+#deliverText{
+margin-top: 10px;
+}
+#flag p{
+    background: url(./img/rzrQQdi0aRm6Dap.png) 0px -120px;
+    width: 25px;
+    height: 27px;
+}
+#searchSymbol{
+    background-color: #FEBD69;
+    height: 42px;
+    width: 45px;
+    margin-left: -25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#searchSymbol:hover {
+    cursor: pointer;
+    background-color: #F3A847;
+}
+#searchSymbol p{
+    background: url(./img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) -10px -280px;
+    margin-left: 10px;
+    width: 30px;
+    height: 31px;
+}
+#deliveryIcon{
+    background: url(./img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) -70px -363px;
+    width: 16px;
+    height: 35px;
+}
+#choice{
+    font-size: 14px;
+}
+#amazons{
+    background-color: #232F3E;
+    width: 110px;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-right: 10px;
+    color: #fff;
+}
+#diag{
+    transform: rotate(45deg);
+    background-color: orange;
+    position: relative;
+    left: 120px;
+    bottom: 25px;
+    width: 20px;
+    height: 20px;
+}
+#orange{
+    background-color: #232F3E;
+    color: #FFA41C;
+}
+#treeOfLifeText {
+    font-size: 14px;
+}
+#treeOfLifeLink {
+    font-size: 12px;
+    color: #007185;
+    text-decoration: none;
+}
+#treeOfLifeLink:hover {
+    font-size: 12px;
+    color: #C7511F;
+    text-decoration: underline;
+}
+#buyButtons{
+    font-size: 14px;
+}
+#buyButtons ul{
+    list-style: none;
+}
+#buttonOne{
+    background-color: #FFD814;
+    height: 24px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 100px;
+}
+#buttonOne:hover{
+    background-color: #F7CA00;
+}
+#buttonTwo{
+    background-color: #FFA41C;
+    height: 24px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-radius: 100px;
+}
+#buttonTwo:hover{
+background-color: #FA8800;
 }
