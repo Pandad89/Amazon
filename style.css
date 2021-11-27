@@ -1,4 +1,162 @@
+:root {
+   --topNavbarColor: #131921;
+   --bottomNavbarColor: #232F3E;
+}
+
+
 * {
     margin: 0;
     padding: 0;
+}
+@font-face {
+
+   font-family: 'Amazon Ember' ;
+   src: url('./assets/AmazonEmber_Rg.ttf') format('truetype');
+}
+body {
+    font-family: 'Amazon Ember';
+    height: 300vh;
+}
+#navbarOne {
+    background-color: var(--topNavbarColor);
+    height: 60px;
+    font-size: 14px;
+    color: #fff;
+}
+#logo {
+    width: 100px;
+    height: 50px;
+    background: url(./img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) -8px -40px;
+}
+#navbarOne ul {
+    display: flex;
+    gap: 25px;
+    margin-left: 25px;
+    list-style: none;
+}
+#deliverTo ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+}
+#navbarOne ul li {
+    margin-top: 10px;
+}
+#navbarOne input{
+    height: 38px;
+    width: 1057px;
+    font-size: 16px;
+    font-family: 'Amazon Ember';
+
+}
+#navbarTwo{
+    background-color: var(--bottomNavbarColor);
+    font-size: 14px;
+    height: 32px;
+    padding-top: 7px;
+    color: #fff;
+}
+#navbarTwo ul{
+    list-style: none;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 2px;
+    gap: 25px;
+}
+#navbarTwo ul li:hover{
+    border: #fff solid 1px;
+    border-radius: 2px;
+}
+#ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ad img:hover {
+    cursor: pointer;
+}
+#breadCrumbs p {
+    margin-left: 230px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(109, 109, 109);
+}
+#breadCrumbs::after{
+    content: '';
+    height: 50px;
+    width: 50px;
+    background: url(./img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) 0 0;
+}
+#breadCrumbs p:hover {
+    text-decoration: underline;
+}
+#itemDesc {
+    margin-left: 315px;
+    margin-top: 5px;
+}
+#itemDesc #mainImage {
+    margin-right: 100px;
+}
+#itemDesc #images {
+    display: flex;
+    gap: 6px;
+    list-style: none;
+    margin-left: 160px;
+}
+#itemDesc #images li{
+    border: rgb(109, 109, 109) solid 1px;
+    border-radius: 2px;
+
+}
+#underImage p{
+    color: rgb(109, 109, 109);
+    font-size: 14px;
+    margin-left: 30px;
+}
+#itemInfo {
+    display: flex;
+}
+#infoText {
+    font-size: 24px;
+    line-height: 32px;
+}
+#infoText #one{
+    width: 450px;
+}
+#linkOne{
+    font-size: 14px ;
+    text-decoration: none;
+    color: #007185;
+}
+#linkOne:hover{
+    font-size: 14px ;
+    text-decoration: underline;
+    color: #C7511F;
+}
+#catDropdown {
+    width: 54px;
+    height: 42px;
+    position: relative;
+    left: 26px;
+    color: rgb(109, 109, 109);
+    background-color: #F3F3F3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: rgb(109, 109, 109);
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Amazon Ember';
+    
+}
+#all1 {
+    margin-left: 10px;
+    margin-top: -3px;
+    font-weight: bold;
+    height: 20px;
+    width: 23px;
+    background: url(./img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) 182px -250px;
+}
+#all2{
+    margin-left: -22px;
 }
